@@ -50,3 +50,5 @@ explore: dm_ot_salud {}
 explore: dm_ot_tecnologia {}
 
 explore: dm_ot_vivienda {}
+
+explore: serie_temporal {}
