@@ -12,7 +12,7 @@ view: dm_ot_ambiente {
     # This dimension will be called "Anio" in Explore.
 
   dimension: anio {
-    type: date_year
+    type: number
     sql: ${TABLE}.ANIO ;;
   }
 
