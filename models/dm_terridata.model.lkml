@@ -52,3 +52,4 @@ explore: dm_ot_tecnologia {}
 explore: dm_ot_vivienda {}
 
 explore: serie_temporal {}
+explore: capas {}
