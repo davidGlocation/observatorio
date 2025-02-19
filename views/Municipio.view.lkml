@@ -1,5 +1,5 @@
 view: municipio {
-sql_table_name: glocationdatalake.mgn_capas.capa_mgn_municipio_agregado ;;
+sql_table_name: glocationdatalake.mgn_capas.capa_mgn_municipio_view ;;
 
     dimension: geos {
       type: string
