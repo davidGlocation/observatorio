@@ -1,9 +1,9 @@
 view: municipio {
-sql_table_name: glocationdatalake.mgn_capas.capa_mgn_municipio_view ;;
+sql_table_name: glocationdatalake.mgn_capas.capa_mgn_municipio_view1 ;;
 
     dimension: geos {
       type: string
-      sql: ST_AsText(${TABLE}.geometria) ;;
+      sql: ${TABLE}.geometria ;;
       description: "Geometría geográfica"
     }
 
