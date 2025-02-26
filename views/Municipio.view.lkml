@@ -91,7 +91,16 @@ sql_table_name: glocationdatalake.mgn_capas.capa_mgn_municipio_view1 ;;
       description: "Código del municipio"
     }
 
-
-
+  dimension: clasificacion {
+    type: string
+    sql: ${TABLE}.clasificacion ;;
+  }
+dimension: clasificacion_number{
+  type: number
+  sql: case
+  when ${TABLE}.clasificacion = 'Especial' then 7
+  else cast(${TABLE}.clasificacion as int64)
+  end
+  ;;}
 
 }
