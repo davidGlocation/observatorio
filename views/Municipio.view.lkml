@@ -81,7 +81,7 @@ sql_table_name: glocationdatalake.mgn_capas.capa_mgn_municipio_view1 ;;
 
     dimension: tot_persona {
       type: number
-      sql: ${TABLE}.tot_persona ;;
+      sql: SAFE_CAST(${TABLE}.tot_persona AS INT64) ;;
       description: "Total de personas"
     }
 
