@@ -1,5 +1,5 @@
 view: capas {
- sql_table_name: glocationdatalake.mgn_capas.capa_mgn_municipio_view1 ;;
+ sql_table_name: glocationdatalake.mgn_capas.v_capa_mgn_departamento_numerada_con_personas ;;
 
 dimension: DPTO_CCDGO {
   type: string
@@ -19,7 +19,7 @@ dimension: DPTO_CCDGO {
   }
   dimension: geos {
     type: string
-    sql: ${TABLE}.geometria ;;
+    sql: ST_AsText(${TABLE}.GEOMETRIA) ;;
   }
   dimension: NUMERICO {
     type: number
