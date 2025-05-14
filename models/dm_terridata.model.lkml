@@ -54,3 +54,5 @@ explore: dm_ot_vivienda {}
 explore: serie_temporal {}
 explore: capas {}
 explore: municipio {}
+
+explore: trogoderma_granarium {}
