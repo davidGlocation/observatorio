@@ -56,3 +56,4 @@ explore: capas {}
 explore: municipio {}
 
 explore: trogoderma_granarium {}
+explore: poligonos_municipio_prueba {}
