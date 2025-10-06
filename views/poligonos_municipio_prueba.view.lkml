@@ -36,28 +36,4 @@ view: poligonos_municipio_prueba {
     sql: ${TABLE}.codigo_nombre_municipio ;;
   }
 
-  measure: count {
-    type: count
-  }
-
-
-  dimension: tooltip_municipio {
-    type: string
-    sql: CONCAT(
-         ${municipio},
-         '<br>',
-         'Código: ',
-         ${Codigo_departamento}
-       ) ;;
-  }
-  dimension: tooltip_departamento {
-    type: string
-    sql: CONCAT(
-         ${departamento},
-         '<br>',
-         'Código: ',
-         ${Codigo_departamento}
-       ) ;;
-  }
-
 }
