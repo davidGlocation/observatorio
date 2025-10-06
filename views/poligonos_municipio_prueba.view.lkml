@@ -30,4 +30,23 @@ view: poligonos_municipio_prueba {
   }
 
 
+  dimension: tooltip_municipio {
+    type: string
+    sql: CONCAT(
+         ${municipio},
+         '<br>',
+         'Código: ',
+         ${Codigo_departamento}
+       ) ;;
+  }
+  dimension: tooltip_departamento {
+    type: string
+    sql: CONCAT(
+         ${departamento},
+         '<br>',
+         'Código: ',
+         ${Codigo_departamento}
+       ) ;;
+  }
+
 }
