@@ -28,12 +28,12 @@ view: poligonos_municipio_prueba {
 
   dimension: Codigo_nombre_departamento_v2 {
     type: string
-    sql: ${TABLE}.codigo_nombre_departamento ;;
+    sql: ${TABLE}.codigo_nombre_departamento_v2 ;;
   }
 
   dimension: Codigo_nombre_municipio_v2 {
     type: string
-    sql: ${TABLE}.codigo_nombre_municipio ;;
+    sql: ${TABLE}.codigo_nombre_municipio_v2 ;;
   }
 
   measure: count {
