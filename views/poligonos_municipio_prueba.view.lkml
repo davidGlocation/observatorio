@@ -26,12 +26,12 @@ view: poligonos_municipio_prueba {
     sql: ${TABLE}.Codigo_municipio ;;
   }
 
-  dimension: Codigo_nombre_departamento {
+  dimension: Codigo_nombre_departamento_v2 {
     type: string
     sql: ${TABLE}.codigo_nombre_departamento ;;
   }
 
-  dimension: Codigo_nombre_municipio {
+  dimension: Codigo_nombre_municipio_v2 {
     type: string
     sql: ${TABLE}.codigo_nombre_municipio ;;
   }
