@@ -41,7 +41,7 @@ view: poligonos_municipio_prueba {
   }
 
 
-  dimension: tooltip_municipio {
+  measure: tooltip_municipio {
     type: string
     sql: CONCAT(
          ${municipio},

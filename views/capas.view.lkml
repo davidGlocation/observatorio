@@ -6,6 +6,7 @@ dimension: DPTO_CCDGO {
   sql: ${TABLE}.DPTO_CCDGO ;;
 }
   dimension: DPTO_CNMBR {
+    label: "Departamento"
     type: string
     sql: ${TABLE}.DPTO_CNMBR ;;
   }
